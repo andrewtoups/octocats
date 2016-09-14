@@ -1,0 +1,63 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.octodex {
+  list-style: none;
+  overflow: hidden;
+  float:left;
+}
+
+.octocat li {
+  list-style: none;
+  overflow: hidden;
+  float: left;
+  width: 30%;
+}
+
+/*.octocat img {
+  width: 100%;
+}*/
+
+footer {
+  font-family: arial;
+  text-decoration: none;
+  overflow: hidden;
+  position:relative;
+  display:block;
+}
+
+.authors img {
+  width:20px;
+}
+
+.octonumber {
+  font-family: helvetica;
+  font-size: 13px;
+}
+
+.authors {
+  list-style: none;
+  overflow: hidden;
+}
+
+.authors li {
+  float:left;
+}
+
+cite, cite a {
+  font-family: helvetica;
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  overflow: hidden;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #cccccc transparent transparent transparent;
+}

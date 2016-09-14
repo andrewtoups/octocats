@@ -1,0 +1,67 @@
+ul {
+  list-style: none;
+}
+
+* {
+  text-decoration: none;
+  font-family: helvetica;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.authors img {
+  width: 25px;
+}
+
+.octocat img {
+  width: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+}
+
+ul {
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  width: 30%;
+  margin: 5px;
+}
+
+/*img {
+  width: 30%;
+}
+
+a {
+  width: 30%;
+}*/
+
+
+footer{
+  width: 30%;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #cccccc transparent transparent transparent;
+  position: absolute;
+}
