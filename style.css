@@ -9,8 +9,10 @@ ul {
   box-sizing: border-box;
 }
 
-.authors img {
-  width: 25px;
+.octodex li {
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  border-bottom-width: thin;
 }
 
 .octocat img {
@@ -18,30 +20,79 @@ ul {
   border-style: solid;
   border-width: thin;
   border-color: lightgrey;
+  margin-bottom: 0;
+}
+
+.octocat a {
+  height: 0;
 }
 
 ul {
   overflow: hidden;
 }
 
-li {
+.octodex li {
   float: left;
   width: 30%;
   margin: 5px;
 }
 
-/*img {
-  width: 30%;
+cite, h3, .authors {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  margin-top: 8px;
 }
 
-a {
-  width: 30%;
-}*/
+cite {
+  float:right;
+  text-align: left;
+  position: relative;
 
+}
+
+cite a {
+  color: black;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+h3::before{
+  content: "#"
+}
+
+h3{
+  float: left;
+  color: lightgray;
+}
 
 footer{
-  width: 30%;
   display: block;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  height: 30px;
+}
+
+.authors {
+  position: relative;
+  bottom: 11px;
+  float:right;
+  padding:0;
+  padding-left: 5px;
+}
+
+.authors li {
+  width: 23px;
+  margin: 0;
+}
+
+.octocat .authors img {
+  border-style: none;
+  border-radius: 6px;
+  margin: 0;
 }
 
 
@@ -63,5 +114,9 @@ footer{
   border-style: solid;
   border-width: 5px 5px 0 5px;
   border-color: #cccccc transparent transparent transparent;
-  position: absolute;
+  vertical-align: top;
+  position: fixed;
+  top: 321px;
+  float: right;
+  margin-left: 278px;
 }
